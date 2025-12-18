@@ -7,9 +7,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 export default function HomeScreen({ navigation }) { 
   return ( 
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}> 
-      <Text>
- 🏠
- Écran d'accueil</Text> 
+      <Text>Écran d'accueil</Text> 
       <Button 
         title="Aller aux détails" 
         onPress={() => navigation.navigate('Details', { id: 42 })} 

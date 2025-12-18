@@ -7,9 +7,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 export default function DetailsScreen({ route }) { 
   return ( 
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}> 
-      <Text>
- 📄
- Écran de détails</Text> 
+      <Text>Ecran de détails</Text> 
       {route.params && <Text>ID reçu : {route.params.id}</Text>} 
     </View> 
   ); 
